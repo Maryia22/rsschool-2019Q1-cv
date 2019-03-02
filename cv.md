@@ -33,3 +33,26 @@ git|novice
 algorithms and data structures|basic
 autoCAD|basic
 
+## Experience
+
+<https://www.codecademy.com/users/Maryia22/achievements>
+
+## Code Example
+
+[nice gray cat](https://github.com/Maryia22/pascal)
+
+## Education
+ 
+Energy Engineer. Belarusian National Technical University. Faculty of Power Engineering|2007-2012
+:----------------------------|:----------------------------
+Economist manager. Belarusian National Technical University. Faculty of Power Engineering.Institute for Advanced Training and Retraining|2010-2012
+Master Degree. Belarusian National Technical University.Energy|2012-2013
+Acadamy of music. Piano| 1997-2005 
+
+## Languages
+
+* Russian - native
+* Polish - elementary
+* English - intermediate
+
+ Like many people, I learned English at school. Last year improved the level with a tutor. I had to communicate with the Italians in English about the issues of delivery  of equipment, the necessary technical documentation. I try to improve my English by watching films in a foreign language, sometimes I visit speaking clubs, I actively use various Internet applications such as <https://lingualeo.com/ru> Travelling is my passion.  Communication and problem solving  does not cause difficulties during the trip thanks to the knowledge of English.
