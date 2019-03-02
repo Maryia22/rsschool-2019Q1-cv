@@ -23,3 +23,13 @@ I am
 - independent
 - reliable
 - hard-working.
+
+Skills | Level
+:---------:|:---------:
+pascal|novice
+scc|novice
+html|novice
+git|novice
+algorithms and data structures|basic
+autoCAD|basic
+
