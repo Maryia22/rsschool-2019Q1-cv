@@ -62,3 +62,48 @@ table {
  font-weight: 700;
  color:#00008B;
 }
+h1 {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 30pt;
+  font-weight: 700;
+  color: gray;
+  line-height: 1.5;
+ }
+
+ .information {
+   display: flex;
+   align-items: center;
+ }
+.contacts {
+  display: flex;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  color: black;
+  flex-flow: column;
+}
+
+h2 {
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+  color: black;
+  line-height: 1.5;
+
+}
+
+h3 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5 ;
+}
+h4 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5 ;
+
+}
