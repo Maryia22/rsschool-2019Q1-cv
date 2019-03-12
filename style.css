@@ -104,6 +104,11 @@ h3 {
   margin-top: 0.5em; 
   margin-bottom: 1em;
 }
+h3.about {
+  text-align:justify;
+  text-indent: 15pt;
+
+}
 h4, p {
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 14pt;
@@ -112,7 +117,8 @@ h4, p {
   line-height: 1.5 ;
   margin-top: 0.5em; 
   margin-bottom: 1em;
-  text-align: justify;
+  text-align:justify;
+  text-indent: 15pt;
   
 }
  li {
