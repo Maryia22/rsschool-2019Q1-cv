@@ -59,11 +59,11 @@ table {
 
 .contacts {
   display: flex;
+  flex-flow: column;
   font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: black;
-  flex-flow: column;
 }
 
 body {
@@ -79,79 +79,81 @@ body {
 }
 
 h1 {
+  line-height: 1.5;
   font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
   font-size: 30pt;
   font-weight: 700;
   color: gray;
-  line-height: 1.5;
- }
+}
 
 h2, .language {
+  margin-top: 3%;
+  line-height: 1.5;
   font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
   font-size: 18pt;
   font-weight: 700;
   color: black;
   line-height: 1.5;
-  margin-top: 3%;
 }
 
 h3 {
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
+  line-height: 1.5 ;
   font-family: Lato, "Helvetica", "Arial", sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: black;
-  line-height: 1.5 ;
-  margin-top: 0.5em; 
-  margin-bottom: 1em;
 }
 
 h3.about {
-  text-align:justify;
+  text-align: justify;
   text-indent: 15pt;
 }
 
 h4, 
 p {
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
+  text-align:justify;
+  line-height: 1.5;
+  text-indent: 15pt;
   font-family: Lato, "Helvetica", "Arial", sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: black;
-  line-height: 1.5 ;
-  margin-top: 0.5em; 
-  margin-bottom: 1em;
-  text-align:justify;
-  text-indent: 15pt;
 }
 
  li,
  a
   {
+  line-height: 1.5;
   font-family: Lato, "Helvetica", "Arial", sans-serif;
   font-size: 12pt;
   font-weight: 400;
   color: black;
-  line-height: 1.5 ; 
- }
+   
+}
 
  a {
-   text-decoration: none;
   color: rgb(82, 78, 78);
-  line-height: 1.5 ; 
+  line-height: 1.5; 
+  text-decoration: none;
 }
 
 thead {
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
+  line-height: 1.5 ;
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 18pt;
   font-weight: 700;
   color: #00008B;
-  line-height: 1.5 ;
-  margin-top: 0.5em; 
-  margin-bottom: 1em;
   background-color: azure;
-  }
+}
   
   tr, td {
-  border: solid gray 1px;
   padding: 5px;
+  border: solid gray 1px;
 }
  
