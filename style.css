@@ -98,6 +98,8 @@ h3 {
   font-weight: 400;
   color: black;
   line-height: 1.5 ;
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
 }
 h4 {
   font-family: Lato, Helvetica, Arial, sans-serif;
@@ -105,5 +107,7 @@ h4 {
   font-weight: 400;
   color: black;
   line-height: 1.5 ;
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
 
 }
