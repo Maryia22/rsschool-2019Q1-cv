@@ -50,6 +50,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 body {
   max-width: 1024px;
     margin: 0 auto;
@@ -61,6 +62,7 @@ body {
  font-weight: 700;
  color:#00008B;
 }
+
 h1 {
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
   font-size: 30pt;
@@ -73,6 +75,7 @@ h1 {
    display: flex;
    align-items: center;
  }
+
 .contacts {
   display: flex;
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
@@ -82,12 +85,13 @@ h1 {
   flex-flow: column;
 }
 
-h2 {
+h2, .language {
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
   font-size: 18pt;
   font-weight: 700;
   color: black;
   line-height: 1.5;
+  margin-top: 3%;
 
 }
 
@@ -100,7 +104,7 @@ h3 {
   margin-top: 0.5em; 
   margin-bottom: 1em;
 }
-h4 {
+h4, p {
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 14pt;
   font-weight: 400;
@@ -108,5 +112,33 @@ h4 {
   line-height: 1.5 ;
   margin-top: 0.5em; 
   margin-bottom: 1em;
-
+  text-align: justify;
+  
 }
+ li {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5 ; 
+ }
+ a {
+  text-decoration: none;
+}
+thead {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+  color: #00008B;
+  line-height: 1.5 ;
+  margin-top: 0.5em; 
+  margin-bottom: 1em;
+  }
+  
+  tr, td {
+    border: solid gray 1px;
+    padding: 5px;
+  }
+  p {
+
+  }
