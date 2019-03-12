@@ -51,53 +51,52 @@ table {
 	border-spacing: 0;
 }
 
-body {
-  max-width: 1024px;
-    margin: 0 auto;
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.first {
- font-family: "Maven Pro", Helvetica, Arial, sans-serif;
- font-size: 18pt;
- font-weight: 700;
- color:#00008B;
-}
-
-h1 {
-  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
-  font-size: 30pt;
-  font-weight: 700;
-  color: gray;
-  line-height: 1.5;
- }
-
- .information {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
- }
 
 .contacts {
   display: flex;
-  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: black;
   flex-flow: column;
 }
 
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.first {
+ font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
+ font-size: 18pt;
+ font-weight: 700;
+ color:#00008B;
+}
+
+h1 {
+  font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
+  font-size: 30pt;
+  font-weight: 700;
+  color: gray;
+  line-height: 1.5;
+ }
+
 h2, .language {
-  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
   font-size: 18pt;
   font-weight: 700;
   color: black;
   line-height: 1.5;
   margin-top: 3%;
-
 }
 
 h3 {
-  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-family: Lato, "Helvetica", "Arial", sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: black;
@@ -105,13 +104,15 @@ h3 {
   margin-top: 0.5em; 
   margin-bottom: 1em;
 }
+
 h3.about {
   text-align:justify;
   text-indent: 15pt;
-
 }
-h4, p {
-  font-family: Lato, Helvetica, Arial, sans-serif;
+
+h4, 
+p {
+  font-family: Lato, "Helvetica", "Arial", sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: black;
@@ -120,18 +121,24 @@ h4, p {
   margin-bottom: 1em;
   text-align:justify;
   text-indent: 15pt;
-  
 }
- li {
-  font-family: Lato, Helvetica, Arial, sans-serif;
+
+ li,
+ a
+  {
+  font-family: Lato, "Helvetica", "Arial", sans-serif;
   font-size: 12pt;
   font-weight: 400;
   color: black;
   line-height: 1.5 ; 
  }
+
  a {
-  text-decoration: none;
+   text-decoration: none;
+  color: rgb(82, 78, 78);
+  line-height: 1.5 ; 
 }
+
 thead {
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 18pt;
@@ -144,9 +151,7 @@ thead {
   }
   
   tr, td {
-    border: solid gray 1px;
-    padding: 5px;
-  }
-  p {
-
-  }
+  border: solid gray 1px;
+  padding: 5px;
+}
+ 
