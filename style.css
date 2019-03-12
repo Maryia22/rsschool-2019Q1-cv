@@ -50,12 +50,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.condition {
-  width: 1024px;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+body {
+  max-width: 1024px;
+    margin: 0 auto;
 }
+
 .first {
  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
  font-size: 18pt;
